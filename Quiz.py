@@ -75,6 +75,7 @@ def show_quiz_content(all_questions):
             #st.write('temp:', temp)
 
             # Extract the first integer from the response
+            print("temp:",temp)
             match = re.search(r'\d+', str(temp[0]))  # Finds the first sequence of digits
             st.session_state.next_question = int(match.group()) if match else st.session_state.last_question_ID
             if st.session_state.next_question <= st.session_state.current_question:
