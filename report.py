@@ -172,7 +172,7 @@ def get_next_question_llm(QA, current_question_ID, remaining_questions, document
         "service_name": "meta_llama70b",
         "query": prompt
     }
-
+    print("1")
     for attempt in range(retries):
         try:
             response = requests.post(
@@ -181,16 +181,20 @@ def get_next_question_llm(QA, current_question_ID, remaining_questions, document
                 data=json.dumps(data),
                 timeout=10
             )
+            print("2")
             if response.status_code == 200:
                 #st.write reuslt
                 print(response.json().get("response", "No valid response from API"))
                 #also retun a bol false 
                 return response.json().get("response", "No valid response from API"), False
             else:
+                print("3")
                 logging.error(f"API returned status code {response.status_code}: {response.text}")
         except requests.exceptions.RequestException as e:
             logging.warning(f"API call attempt {attempt + 1} failed: {e}")
+            print("4")
             if attempt < retries - 1:
+                print("5")
                 logging.info("Retrying API call...")
     print("Error: API call failed after multiple attempts")
     return "Error: API call failed after multiple attempts"
