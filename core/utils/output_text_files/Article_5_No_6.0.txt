@@ -1,0 +1,8 @@
+Article No: 5
+
+Related keywords or topics:
+- Compromise of privacy by obtaining, leaking, or correctly inferring sensitive information; AI system security vulnerabilities and attacks
+- Fraud, scams, and targeted manipulation
+
+Description:
+Compiling facial recognition databases by untargeted scraping of facial images from the internet or CCTV footage.

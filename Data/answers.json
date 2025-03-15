@@ -1,0 +1,46 @@
+{
+    "1": {
+        "Question": "What is the primary purpose of your AI system?",
+        "Answer": "gg"
+    },
+    "2": {
+        "Question": "Is the AI system intended to be used as a safety component of a product or is the AI system itself a product covered by the Union harmonisation legislation listed in Annex I AIA?",
+        "Answer": "gg"
+    },
+    "10": {
+        "Question": "Are the datasets labeled or annotated? If so who performed the labeling?",
+        "Answer": "gg"
+    },
+    "19": {
+        "Question": "Has an impact assessment been conducted to evaluate the potential discriminatory effects of the AI system?",
+        "Answer": "g"
+    },
+    "23": {
+        "Question": "Does the AI system function as a biometric identification system (uniquely identifying individuals) or as a biometric categorization system (grouping individuals based on shared characteristics)?",
+        "Answer": "g"
+    },
+    "32": {
+        "Question": "Was any personal data collected for training validation or testing?",
+        "Answer": "gg"
+    },
+    "37": {
+        "Question": "Was any bias identified in the training validation or testing datasets?",
+        "Answer": "ggg"
+    },
+    "38": {
+        "Question": "If bias was detected what steps were taken to mitigate it?",
+        "Answer": "gg"
+    },
+    "44": {
+        "Question": "What kind of human intervention can be found in your AI system ensuring a human-in-the-loop humanon-the-loop or human-in-command approach?",
+        "Answer": "gg"
+    },
+    "48": {
+        "Question": "Assess whether your system deduces sensitive attributes or if it categorises non-sensitive attributes",
+        "Answer": "gg"
+    },
+    "52": {
+        "Question": "What harms might this stakeholder experience if they are unaware that they are interacting with an AI system when that system impersonates human interaction or generates or manipulates image audio or video content that could falsely appear to be authentic?",
+        "Answer": "gg"
+    }
+}

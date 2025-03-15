@@ -1,0 +1,8 @@
+Article No: 5
+
+Related keywords or topics:
+- Compromise of privacy by obtaining, leaking, or correctly inferring sensitive information; AI system security vulnerabilities and attacks
+- Fraud, scams, and targeted manipulation
+
+Description:
+‘Real-time’ remote biometric identification (RBI) in publicly accessible spaces for law enforcement, except when searching for missing persons, abduction victims, and people who have been human trafficked or sexually exploited;

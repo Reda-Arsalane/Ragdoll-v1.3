@@ -1,0 +1,39 @@
+2025-01-08 00:18:33,083 - INFO - Starting RAG system...
+2025-01-08 00:18:43,582 - ERROR - Documents directory 'documents' does not exist.
+2025-01-08 00:20:13,491 - INFO - Starting RAG system...
+2025-01-08 00:20:17,417 - WARNING - Documents directory 'documents' does not exist. Creating the directory.
+2025-01-08 00:38:27,575 - INFO - Starting RAG system...
+2025-01-08 00:38:44,958 - INFO - Retrieving relevant documents...
+2025-01-08 00:38:44,967 - INFO - Sending data to API...
+2025-01-08 00:38:48,653 - INFO - RAG system completed successfully.
+2025-01-08 00:42:43,302 - INFO - Starting RAG system...
+2025-01-08 00:42:45,836 - INFO - Retrieving relevant documents...
+2025-01-08 00:42:45,839 - INFO - Checking compliance for relevant documents...
+2025-01-08 00:42:45,840 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-01-08 00:42:51,657 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-01-08 00:42:56,269 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-01-08 00:42:57,323 - INFO - RAG system completed successfully.
+2025-01-08 00:52:33,989 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-01-08 00:52:35,759 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-01-08 00:52:36,673 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-01-08 00:52:37,762 - INFO - Checking compliance for document: Article_Annex III_No_13.0.txt
+2025-01-08 00:52:38,762 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-01-08 00:54:09,152 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-01-08 00:54:13,526 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-01-08 00:54:14,503 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-01-08 00:54:15,559 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-01-08 00:54:16,440 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-01-08 00:56:01,243 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-01-08 00:56:02,709 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-01-08 00:56:03,641 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-01-08 00:56:06,380 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-01-08 00:56:07,458 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-01-08 01:07:59,809 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-01-08 01:08:10,040 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-01-08 01:08:10,041 - INFO - Retrying API call...
+2025-01-08 01:08:12,230 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-01-08 01:08:13,170 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-01-08 01:08:14,073 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-01-08 01:08:24,182 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-01-08 01:08:24,183 - INFO - Retrying API call...
+2025-01-08 01:08:26,711 - INFO - Checking compliance for document: Article_5_No_7.0.txt

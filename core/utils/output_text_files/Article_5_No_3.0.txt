@@ -1,0 +1,8 @@
+Article No: 5
+
+Related keywords or topics:
+- Unfair discrimination and misrepresentation; Unequal performance across groups
+- Compromise of privacy by obtaining, leaking, or correctly inferring sensitive information
+
+Description:
+Biometric categorisation systems inferring sensitive attributes (race, political opinions, trade union membership, religious or philosophical beliefs, sex life, or sexual orientation), except labelling or filtering of lawfully acquired biometric datasets or when law enforcement categorises biometric data.

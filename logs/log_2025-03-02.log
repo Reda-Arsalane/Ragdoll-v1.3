@@ -1,0 +1,26 @@
+2025-03-02 14:28:30,708 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-03-02 14:28:32,947 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-03-02 14:28:34,654 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-03-02 14:28:36,266 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-03-02 14:28:37,928 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-03-02 14:29:57,579 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-03-02 14:29:59,645 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-03-02 14:30:01,288 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-03-02 14:30:05,687 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-03-02 14:30:07,326 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-03-02 14:44:29,940 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-03-02 14:44:32,426 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-03-02 14:44:34,164 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-03-02 14:44:35,906 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-03-02 14:44:37,750 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-03-02 15:23:38,317 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-03-02 15:23:40,372 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-03-02 15:23:41,886 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-03-02 15:23:43,387 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-03-02 15:23:44,803 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-03-03 15:24:44,575 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-03-03 15:24:49,069 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-03-03 15:24:50,477 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-03-03 15:24:52,914 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-03-03 15:24:54,243 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-03-03 22:50:25,131 - WARNING - Documents directory 'documents' does not exist. Creating the directory.

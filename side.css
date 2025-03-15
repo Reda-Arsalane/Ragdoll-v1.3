@@ -1,0 +1,17 @@
+section[data-testid="stSidebar"] div.stButton button {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section[data-testid="stSidebar"] div.stButton button:hover {
+    background-color: rgba(35, 37, 48,0.1); 
+}
+
+
+
+

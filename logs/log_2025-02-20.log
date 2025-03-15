@@ -1,0 +1,474 @@
+2025-02-20 02:22:47,089 - WARNING - Documents directory 'documents' does not exist. Creating the directory.
+2025-02-20 02:23:42,234 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 02:23:43,534 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 02:23:44,613 - INFO - Checking compliance for document: Article_Annex III_No_14.0.txt
+2025-02-20 02:23:45,667 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 02:23:46,701 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:05:24,650 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:05:26,636 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:05:27,820 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:05:29,059 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:05:30,275 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:07:56,611 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:07:58,255 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:07:59,559 - INFO - Checking compliance for document: Article_Annex III_No_15.0.txt
+2025-02-20 03:08:00,669 - INFO - Checking compliance for document: Article_Annex III_No_14.0.txt
+2025-02-20 03:08:01,721 - INFO - Checking compliance for document: Article_Annex III_No_13.0.txt
+2025-02-20 03:10:44,367 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:10:46,160 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:10:47,391 - INFO - Checking compliance for document: Article_Annex III_No_15.0.txt
+2025-02-20 03:10:48,509 - INFO - Checking compliance for document: Article_Annex III_No_14.0.txt
+2025-02-20 03:10:49,582 - INFO - Checking compliance for document: Article_Annex III_No_13.0.txt
+2025-02-20 03:11:37,589 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:11:39,374 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:11:40,695 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:11:41,828 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:11:43,100 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:13:25,005 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:13:26,843 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:13:28,027 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:13:29,079 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:13:30,195 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:13:31,393 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 03:13:32,657 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 03:13:33,779 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 03:13:34,887 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:13:36,117 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 03:24:36,965 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:24:38,668 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:24:39,810 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:24:41,090 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:24:42,119 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:24:43,256 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 03:24:44,455 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 03:24:45,524 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 03:24:46,656 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:24:47,761 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 03:26:12,420 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:26:14,088 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:26:15,163 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:26:16,291 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:26:17,365 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:26:18,459 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 03:26:19,643 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 03:26:20,811 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 03:26:21,979 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:26:23,210 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 03:33:33,893 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:33:35,703 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:33:36,791 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:33:37,808 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:33:38,917 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:33:40,223 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 03:33:41,443 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 03:33:42,653 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 03:33:44,024 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:33:45,317 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 03:43:52,664 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:43:54,538 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:43:55,607 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:43:56,842 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:43:57,953 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:43:59,185 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 03:44:00,302 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 03:44:01,530 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 03:44:02,758 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:44:03,890 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 03:52:38,511 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:52:40,303 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:52:41,470 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:52:42,638 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:52:43,818 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:52:45,070 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 03:52:46,333 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 03:52:47,581 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 03:52:48,700 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:52:49,793 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 03:52:50,927 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:52:52,069 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:52:53,269 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:52:54,466 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:52:55,816 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:52:57,086 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 03:52:58,465 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 03:52:59,630 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 03:53:00,758 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:53:02,270 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 03:56:49,573 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 03:56:51,411 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 03:56:52,613 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 03:56:53,664 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 03:56:54,927 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 03:56:56,391 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 03:56:57,600 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 03:56:58,741 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 03:56:59,862 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 03:57:00,985 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 04:05:55,513 - INFO - Checking compliance for document: Article_5_No_6.0.txt
+2025-02-20 04:05:57,415 - INFO - Checking compliance for document: Article_Annex III_No_9.0.txt
+2025-02-20 04:05:58,498 - INFO - Checking compliance for document: Article_5_No_5.0.txt
+2025-02-20 04:05:59,656 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 04:06:00,996 - INFO - Checking compliance for document: Article_Annex III_No_10.0.txt
+2025-02-20 04:06:02,261 - INFO - Checking compliance for document: Article_5_No_7.0.txt
+2025-02-20 04:06:03,448 - INFO - Checking compliance for document: Article_5_No_1.0.txt
+2025-02-20 04:06:04,829 - INFO - Checking compliance for document: Article_5_No_4.0.txt
+2025-02-20 04:06:06,224 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 04:06:07,379 - INFO - Checking compliance for document: Article_5_No_3.0.txt
+2025-02-20 04:12:40,559 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:12:42,551 - INFO - Checking compliance for document: Article Annex III Number 9.txt
+2025-02-20 04:12:43,687 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:12:44,813 - INFO - Checking compliance for document: Article_Annex III_No_11.0.txt
+2025-02-20 04:12:46,055 - INFO - Checking compliance for document: Article Annex III Number 10.txt
+2025-02-20 04:12:47,299 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:12:48,619 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:12:49,579 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:12:50,790 - INFO - Checking compliance for document: Article_Annex III_No_16.0.txt
+2025-02-20 04:12:51,970 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:28:54,141 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:28:55,886 - INFO - Checking compliance for document: Article Annex III Number 9.txt
+2025-02-20 04:28:57,133 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:28:58,308 - INFO - Checking compliance for document: Article Annex III Number 11.txt
+2025-02-20 04:28:59,614 - INFO - Checking compliance for document: Article Annex III Number 10.txt
+2025-02-20 04:29:00,930 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:29:02,154 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:29:03,454 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:29:04,609 - INFO - Checking compliance for document: Article Annex III Number 16.txt
+2025-02-20 04:29:05,820 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:30:16,376 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:30:18,146 - INFO - Checking compliance for document: Article Annex III Number 9.txt
+2025-02-20 04:30:19,467 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:30:20,803 - INFO - Checking compliance for document: Article Annex III Number 11.txt
+2025-02-20 04:30:21,876 - INFO - Checking compliance for document: Article Annex III Number 10.txt
+2025-02-20 04:30:23,127 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:30:24,242 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:30:25,478 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:30:26,592 - INFO - Checking compliance for document: Article Annex III Number 16.txt
+2025-02-20 04:30:27,896 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:32:14,465 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:32:16,406 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:32:17,532 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:32:18,678 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:32:19,861 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:32:20,975 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:32:22,113 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:32:23,435 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:32:24,581 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:32:25,777 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:39:46,135 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:39:48,493 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:39:49,710 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:39:50,818 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:39:52,096 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:39:53,380 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:39:54,615 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:39:55,944 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:39:57,243 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:39:58,546 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:44:27,251 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:44:29,010 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:44:30,078 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:44:31,377 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:44:32,538 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:44:33,805 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:44:35,276 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:44:36,472 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:44:37,685 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:44:38,992 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:47:34,641 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:47:36,355 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:47:37,711 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:47:38,846 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:47:40,039 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:47:41,206 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:47:42,498 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:47:43,877 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:47:45,060 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:47:46,331 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:50:48,227 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:50:49,930 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:50:51,193 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:50:52,329 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:50:53,371 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:50:54,660 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:50:55,788 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:50:56,905 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:50:58,035 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:50:59,172 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:52:37,628 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:52:39,338 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:52:40,458 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:52:41,679 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:52:42,803 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:52:43,990 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:52:45,098 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:52:46,328 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:52:47,515 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:52:48,541 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:53:21,054 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:53:22,701 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:53:23,767 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:53:24,935 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:53:26,077 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:53:27,358 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:53:28,508 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:53:29,989 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:53:31,084 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:53:32,243 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:57:15,315 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:57:17,355 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:57:18,596 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:57:19,823 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:57:21,253 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:57:22,588 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:57:23,710 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:57:24,939 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:57:26,171 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:57:27,299 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 04:58:52,777 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 04:58:54,725 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 04:58:55,944 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 04:58:57,084 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 04:59:07,269 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 04:59:07,285 - INFO - Retrying API call...
+2025-02-20 04:59:08,335 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 04:59:09,562 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 04:59:10,751 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 04:59:11,920 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 04:59:12,934 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 04:59:14,096 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:02:28,690 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:02:30,751 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:02:31,803 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:02:32,948 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:02:34,068 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:02:35,308 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:02:36,516 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:02:37,681 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:02:39,011 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:02:40,031 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:04:14,553 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:04:16,493 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:04:17,711 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:04:18,959 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:04:20,590 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:04:22,229 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:04:23,660 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:04:24,883 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:04:26,326 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:04:27,659 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:05:13,247 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:05:15,065 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:05:16,500 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:05:17,931 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:05:19,266 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:05:20,593 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:05:21,816 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:05:23,056 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:05:24,282 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:05:25,614 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:06:40,174 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:06:42,212 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:06:43,642 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:06:44,978 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:06:46,505 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:06:47,935 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:06:49,273 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:06:50,809 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:06:52,136 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:06:53,579 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:09:54,364 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:09:56,365 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:09:57,590 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:09:58,868 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:10:00,253 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:10:01,787 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:10:03,225 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:10:04,452 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:10:05,784 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:10:07,425 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:20:58,325 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:21:00,229 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:21:01,383 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:21:02,741 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:21:03,846 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:21:05,193 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:21:06,310 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:21:07,442 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:21:08,740 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:21:10,037 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:26:37,319 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:26:39,185 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:26:40,315 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:26:41,449 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:26:42,617 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:26:43,816 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:26:44,950 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:26:46,232 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:26:47,632 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:26:48,920 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:50:42,453 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:50:44,467 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:50:45,703 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:50:47,034 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:50:48,361 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:50:49,797 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:50:51,234 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:50:52,661 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:50:54,197 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:50:55,430 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:51:29,967 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:51:31,876 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:51:33,314 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:51:34,847 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:51:36,281 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 05:51:37,512 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 05:51:38,945 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 05:51:40,273 - INFO - Checking compliance for document: Article 5 Number 4.txt
+2025-02-20 05:51:41,511 - INFO - Checking compliance for document: Article Annex 3 Number 16.txt
+2025-02-20 05:51:42,839 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 05:53:50,060 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:53:51,827 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:53:52,909 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 05:55:25,208 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:55:27,142 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:55:28,698 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 05:58:09,047 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 05:58:10,775 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 05:58:11,984 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 06:03:39,313 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 06:03:41,425 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 06:03:42,643 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 06:07:25,389 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 06:07:27,271 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 06:07:28,494 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 06:09:02,063 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 06:09:12,303 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 06:09:12,334 - INFO - Retrying API call...
+2025-02-20 06:09:14,260 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 06:09:15,699 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 06:09:17,169 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 06:09:18,557 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 06:11:40,929 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 06:11:43,085 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 06:11:44,322 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 06:11:45,618 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 06:11:47,186 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 06:18:33,691 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 06:18:35,900 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 06:18:37,395 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 06:18:38,822 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 06:18:40,042 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 06:45:06,755 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 06:45:08,803 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 06:45:10,051 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 06:45:11,453 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 06:45:12,768 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 07:21:09,607 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 07:21:11,682 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 07:21:13,292 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 07:21:14,761 - INFO - Checking compliance for document: Article Annex 3 Number 13.txt
+2025-02-20 07:21:16,207 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 07:22:38,255 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 07:22:40,118 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 07:22:41,830 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 07:22:43,241 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 07:22:44,852 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 07:23:59,528 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 07:24:01,392 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 07:24:03,189 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 07:24:04,735 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 07:24:06,769 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:41:40,216 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:41:49,436 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 11:41:59,591 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 11:41:59,592 - INFO - Retrying API call...
+2025-02-20 11:42:09,734 - WARNING - API call attempt 2 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 11:42:09,735 - INFO - Retrying API call...
+2025-02-20 11:42:17,596 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:42:22,404 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:42:25,513 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 11:42:29,603 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 11:42:35,665 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 11:42:35,665 - INFO - Retrying API call...
+2025-02-20 11:42:38,442 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:42:43,363 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:42:45,610 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 11:42:53,407 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 11:50:03,115 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:50:07,035 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 11:50:11,810 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:50:15,754 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:50:19,820 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 11:51:05,568 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 11:51:10,629 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:51:15,639 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 11:51:20,580 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:51:25,496 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:54:28,201 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:54:33,530 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:54:35,954 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 11:54:39,884 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:54:46,263 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:02:28,129 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 12:02:34,377 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:02:38,894 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:02:45,024 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 12:02:53,222 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 12:11:32,749 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:11:38,135 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:11:43,311 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 12:11:46,318 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 12:11:55,738 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 12:12:05,992 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:12:05,998 - INFO - Retrying API call...
+2025-02-20 12:14:48,973 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:14:55,965 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 12:15:00,399 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 12:15:08,762 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:15:18,926 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:15:18,933 - INFO - Retrying API call...
+2025-02-20 12:15:23,101 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 12:17:40,387 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:17:45,649 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:17:48,412 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 12:17:54,245 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 12:17:57,012 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 12:40:36,765 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:40:38,746 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 12:40:48,944 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:40:48,944 - INFO - Retrying API call...
+2025-02-20 12:40:50,639 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:41:00,948 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:00,956 - INFO - Retrying API call...
+2025-02-20 12:41:11,192 - WARNING - API call attempt 2 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:11,192 - INFO - Retrying API call...
+2025-02-20 12:41:19,188 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 12:41:29,408 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:29,408 - INFO - Retrying API call...
+2025-02-20 12:41:39,636 - WARNING - API call attempt 2 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:39,637 - INFO - Retrying API call...
+2025-02-20 12:41:41,007 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 12:41:51,222 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:51,224 - INFO - Retrying API call...
+2025-02-20 12:42:09,531 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:42:09,534 - INFO - Retrying API call...
+2025-02-20 13:01:11,683 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 13:01:15,699 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 13:01:17,197 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 13:01:21,708 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 13:01:24,970 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 13:11:43,289 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 13:11:45,419 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 13:11:47,301 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 13:11:52,075 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 13:11:53,344 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 13:21:18,839 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 13:21:21,837 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 13:21:24,702 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 13:21:26,646 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 13:21:28,598 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 13:25:05,325 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 13:25:08,253 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 13:25:09,784 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 13:25:11,460 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 13:25:13,282 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
