@@ -29,6 +29,7 @@ logging.getLogger().addHandler(console_handler)
 # Load documents from the 'documents' directory
 def load_documents(directory="documents"):
     docs = {}
+    print(directory)
     if not os.path.exists(directory):
         logging.warning(f"Documents directory '{directory}' does not exist. Creating the directory.")
         os.makedirs(directory)
