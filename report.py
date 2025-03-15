@@ -183,7 +183,7 @@ def get_next_question_llm(QA, current_question_ID, remaining_questions, document
             )
             if response.status_code == 200:
                 #st.write reuslt
-                st.write(response.json().get("response", "No valid response from API"))
+                print(response.json().get("response", "No valid response from API"))
                 #also retun a bol false 
                 return response.json().get("response", "No valid response from API"), False
             else:
