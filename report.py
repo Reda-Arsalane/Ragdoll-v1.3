@@ -192,6 +192,7 @@ def get_next_question_llm(QA, current_question_ID, remaining_questions, document
             logging.warning(f"API call attempt {attempt + 1} failed: {e}")
             if attempt < retries - 1:
                 logging.info("Retrying API call...")
+    print("Error: API call failed after multiple attempts")
     return "Error: API call failed after multiple attempts"
 
 

@@ -32,7 +32,7 @@ def show_home_page():
         </div>
         <div class="content-section">
             <p style="font-family: Mulish, sans-serif;">
-    <strong>RAG DOLLi</strong> is an intelligent compliance checker designed to evaluate the potential risks of AI systems by aligning them with the risk categories defined in the European AI Act, ranging from minimal to unacceptable. Using a RAG system and regulations-aware Large Language Models, it analyzes key aspects of an AI application and provides a structured <strong style="color: #1b2b5c;">Risk Assessment </strong>, <strong style="color: #1b2b5c;">Compliance Verification </strong>, and tailored <strong style="color: #1b2b5c;">Recommendations</strong>.
+    <strong>RAG DOLL</strong> is an intelligent compliance checker designed to evaluate the potential risks of AI systems by aligning them with the risk categories defined in the European AI Act, ranging from minimal to unacceptable. Using a RAG system and regulations-aware Large Language Models, it analyzes key aspects of an AI application and provides a structured <strong style="color: #1b2b5c;">Risk Assessment </strong>, <strong style="color: #1b2b5c;">Compliance Verification </strong>, and tailored <strong style="color: #1b2b5c;">Recommendations</strong>.
 </p>
 <p style="font-family: Mulish, sans-serif;">
     Users can assess their compliance by completing a customized questionnaire designed to align with the requirements of the EU AI Act.
