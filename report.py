@@ -8,6 +8,11 @@ import pandas as pd
 import re
 import requests
 import logging
+import os
+from pathlib import Path
+
+
+
 
 
 
@@ -138,7 +143,8 @@ def get_next_question_llm(QA, current_question_ID, remaining_questions, document
     if current_question_ID < 2:
         return current_question_ID + 1, False  # Directly return next question ID for first 5 questions
 
-    
+    print(" Working Directory:", os.getcwd())
+    print(" Absolute Path:", Path(__file__).resolve())
     print("Retrieving docs...")
     
     documents = load_documents(documents_directory)
