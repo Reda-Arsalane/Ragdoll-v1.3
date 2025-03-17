@@ -72,7 +72,7 @@ def show_quiz_content(all_questions):
             st.session_state.QA[question_id] = {"Question": question_text, "Answer": response}
             #def get_next_question_llm(QA, current_question_ID, documents_directory="documents", top_k=3, retries=3):
             temp = get_next_question_llm(st.session_state.QA, st.session_state.current_question, remaining_questions)
-            #st.write('temp:', temp)
+            st.write('temp:', temp)
 
             # Extract the first integer from the response
             print("temp:",temp)
