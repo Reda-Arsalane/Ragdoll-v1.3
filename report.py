@@ -139,7 +139,7 @@ def extract_non_compliant_entries(text_output):
 
 
 
-def get_next_question_llm(QA, current_question_ID, remaining_questions, documents_directory=".\core\documents", top_k=3, retries=3):
+def get_next_question_llm(QA, current_question_ID, remaining_questions, documents_directory="/mount/src/ragdoll-v1.1/core/documents", top_k=3, retries=3):
     if current_question_ID < 2:
         return current_question_ID + 1, False  # Directly return next question ID for first 5 questions
 
