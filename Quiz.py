@@ -76,7 +76,7 @@ def show_quiz_content(all_questions):
             
             temp = get_next_question_llm(st.session_state.QA, st.session_state.current_question, remaining_questions)
 
-            #st.write('temp:', temp)
+            st.write('temp:', temp)
             
             # Extract the first integer from the response
             #print("temp:",temp)
