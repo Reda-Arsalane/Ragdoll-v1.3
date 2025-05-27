@@ -118,29 +118,49 @@ def show_results():
 
 
 
-def extract_non_compliant_entries(text_output):
+def extract_compliance_entries(text_output):
     entries = text_output.lower().strip().split("\n\n")
-    data = []
+    non_complies = []
+    complies = []
+    does_not_apply_found = False
     text_results = ""
-    for entry in entries:
-        if "does not comply" in entry:
-            lines = entry.split("\n")
-            try:
-                doc_name_line = lines[0]
-                doc_name = doc_name_line.split(": ")[1].strip().title().split(".")[0]
-            except (IndexError, ValueError):
-                continue  # skip this entry if document name is malformed
 
+    for entry in entries:
+        lines = entry.split("\n")
+        try:
+            doc_name_line = lines[0]
+            doc_name = doc_name_line.split(": ")[1].strip().title().split(".")[0]
+        except (IndexError, ValueError):
+            continue  # skip malformed entry
+
+        # Extract compliance status
+        if "does not comply" in entry:
             reason_match = re.search(r'"reason": "(.*?)"', entry)
             if not reason_match:
-                continue  # skip if reason not found
-
+                continue
             reason = reason_match.group(1).strip().capitalize()
             compliance = "Does Not Comply"
+            non_complies.append([doc_name, compliance, reason])
 
-            text_output = f"Document: {doc_name}\nCompliance: {compliance}\nReason: {reason}"
-            text_results += text_output + "\n\n"
-            data.append([doc_name, compliance, reason])
+        elif "does not apply" in entry:
+            does_not_apply_found = True
+
+        elif "complies" in entry:
+            reason_match = re.search(r'"reason": "(.*?)"', entry)
+            reason = reason_match.group(1).strip().capitalize() if reason_match else ""
+            compliance = "Complies"
+            complies.append([doc_name, compliance, reason])
+
+    if not non_complies and not does_not_apply_found:
+        # Return all complies if no 'does not comply' and no 'does not apply'
+        data = complies
+        for doc_name, compliance, reason in complies:
+            text_results += f"Document: {doc_name}\nCompliance: {compliance}\nReason: {reason}\n\n"
+    else:
+        # Return only non_complies entries
+        data = non_complies
+        for doc_name, compliance, reason in non_complies:
+            text_results += f"Document: {doc_name}\nCompliance: {compliance}\nReason: {reason}\n\n"
 
     df = pd.DataFrame(data, columns=["Document", "Compliance", "Reason"])
     return df, text_results
