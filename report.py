@@ -151,7 +151,7 @@ def extract_non_compliant_entries(text_output):
 
 
 
-def get_next_question_llm(QA, current_question_ID, remaining_questions, documents_directory="C:/Users/moham/OneDrive/Desktop/hack2025/RAGDOLL V1.1/Ragdoll-v1.2/Ragdoll-v1.1/core/documents", top_k=3, retries=3):
+def get_next_question_llm(QA, current_question_ID, remaining_questions, documents_directory="/mount/src/ragdoll-v1.1/core/documents", top_k=3, retries=3):
     if current_question_ID < 2:
         #get the current anser from the QA dict
         current_answer = QA.get(current_question_ID, {}).get("Answer", "")
