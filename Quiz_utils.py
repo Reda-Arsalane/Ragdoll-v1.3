@@ -68,11 +68,13 @@ def file_uploader():
 def glossary(all_questions):
     with st.expander("Glossary", expanded=True):
                 question_id = st.session_state.current_question
-                question_data = all_questions[all_questions['ID'] == question_id].iloc[0]
+                filtered_questions = all_questions[all_questions['ID'] == question_id]
 
-                if question_data.empty:
+                if filtered_questions.empty:
                     st.write("No question available")
                     return
+                else:
+                    question_data = filtered_questions.iloc[0]
 
                 glossary_terms = [term for term in terms_definitions if term.lower() in question_data['Question'].lower()]
                 

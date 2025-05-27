@@ -67,17 +67,32 @@ def show_quiz_content(all_questions):
     st.progress(progress)
 
     
+
     
     if response and st.session_state.found_next_question and st.session_state.current_question != st.session_state.last_question_ID and st.session_state.current_question not in st.session_state.path:
             st.session_state.QA[question_id] = {"Question": question_text, "Answer": response}
+            temp_QA = st.session_state.QA.copy()  # Create a copy of the current QA state
             #def get_next_question_llm(QA, current_question_ID, documents_directory="documents", top_k=3, retries=3):
+            
             temp = get_next_question_llm(st.session_state.QA, st.session_state.current_question, remaining_questions)
-            #st.write('temp:', temp)
 
+            #st.write('temp:', temp)
+            
             # Extract the first integer from the response
             #print("temp:",temp)
             match = re.search(r'\d+', str(temp[0]))  # Finds the first sequence of digits
-            st.session_state.next_question = int(match.group()) if match else st.session_state.last_question_ID
+
+
+            if match:
+                candidate = int(match.group())
+                if st.session_state.current_question < candidate <= st.session_state.last_question_ID:
+                    st.session_state.next_question = candidate
+                else:
+                    st.session_state.next_question = st.session_state.last_question_ID
+            else:
+                st.session_state.next_question = st.session_state.last_question_ID
+
+
             if st.session_state.next_question <= st.session_state.current_question:
                 st.session_state.next_question = st.session_state.last_question_ID
             st.session_state.stop = temp[1]
@@ -131,6 +146,10 @@ def show_quiz_content(all_questions):
                                 st.session_state.current_question = st.session_state.next_question
                             ##print("next:",st.session_state.current_question)
                             st.session_state.responses[question_id] = response
+                            if question_id in st.session_state.QA:
+                                if response != st.session_state.QA[question_id]["Answer"]:
+                                    st.session_state.modified = True
+                            st.session_state.QA[question_id] = {"Question": question_text, "Answer": response}
                             if question_id not in st.session_state.history:
                                 st.session_state.history.append(question_id)
                             st.session_state.expanders_state = {'information': False, 'resources': False, 'glossary': False}
@@ -143,8 +162,15 @@ def show_quiz_content(all_questions):
                 if not response:
                     st.warning("Please provide an answer before submitting!")
                 else:
-                    st.session_state.responses[question_id] = response
+                    st.session_state.responses[question_id] = response 
+                    if question_id in st.session_state.QA:
+                        if response != st.session_state.QA[question_id]["Answer"]:
+                            st.session_state.modified = True
+                    st.session_state.QA[question_id] = {"Question": question_text, "Answer": response}
+
                     st.session_state.submitted = True
+                    st.session_state.start_quiz = False
+                    st.session_state.report_generated = False
                     st.rerun()
 
 

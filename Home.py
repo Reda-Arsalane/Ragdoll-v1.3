@@ -58,4 +58,5 @@ def header():
             <h1>RAG DOLL</h1>
         </div>
     </div>
+    <br/>
     """, unsafe_allow_html=True)

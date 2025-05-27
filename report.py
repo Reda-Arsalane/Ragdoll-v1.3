@@ -40,16 +40,21 @@ def format_df(data):
 
 def get_summary(content, retries=3):
     prompt = (
-    f"Analyze the following content and sumurize it in a paragraph\n\n"
-    f"Begin the paragraph with the associated risk level of the system, selecting one of the following categories: "
-    f"'Unacceptable', 'High', 'Limited', or 'Minimal'. Format your response as follows:\n"
-    f"Unacceptable: <your summary>\n"
-    f"High: <your summary>\n"
-    f"Limited: <your summary>\n"
-    f"Minimal: <your summary>\n\n"
-    f"Strictly follow this structure and do not introduce any additional information or formatting.\n"
-    f"Do not mention the length of the content in any way.\n\n"
-    f"Content:\n{content}\n"
+        "Analyze the following content and summarize it in a paragraph.\n\n"
+        "IMPORTANT: Your summary MUST begin with the risk level ONLY from one of the following:\n"
+        "'Unacceptable', 'High', 'Limited', or 'Minimal'.\n"
+        "Use this exact format:\n"
+        "Unacceptable: <your summary>\n"
+        "High: <your summary>\n"
+        "Limited: <your summary>\n"
+        "Minimal: <your summary>\n\n"
+        "In your summary, explicitly mention the specific regulatory provisions or compliance requirements that are not met.\n"
+        "Use precise and formal language. Replace vague terms such as 'input' or 'documents' with 'provided system information', 'regulatory provisions', or 'compliance criteria'.\n"
+        "Explain clearly the reasons for non-compliance based on the system description or evidence given.\n"
+        "If the content is vague, unclear, incomplete, or prevents accurate risk judgment, you MUST select either 'High' or 'Unacceptable'.\n"
+        "Do NOT use 'Minimal' or 'Limited' in such cases, even if unsure.\n"
+        "DO NOT mention the length or quality of the input text.\n\n"
+        f"Content:\n{content}"
     )
     data = {
         "access_id": "trial_version",
@@ -113,7 +118,6 @@ def show_results():
 
 
 
-
 def extract_non_compliant_entries(text_output):
     entries = text_output.lower().strip().split("\n\n")
     data = []
@@ -121,15 +125,23 @@ def extract_non_compliant_entries(text_output):
     for entry in entries:
         if "does not comply" in entry:
             lines = entry.split("\n")
-            doc_name = lines[0].split(": ")[1].strip().title().split(".")[0]
-            compliance = "Does Not Comply"
+            try:
+                doc_name_line = lines[0]
+                doc_name = doc_name_line.split(": ")[1].strip().title().split(".")[0]
+            except (IndexError, ValueError):
+                continue  # skip this entry if document name is malformed
+
             reason_match = re.search(r'"reason": "(.*?)"', entry)
-            reason = reason_match.group(1).title() if reason_match else "Reason Not Found"
+            if not reason_match:
+                continue  # skip if reason not found
+
+            reason = reason_match.group(1).strip().capitalize()
+            compliance = "Does Not Comply"
+
             text_output = f"Document: {doc_name}\nCompliance: {compliance}\nReason: {reason}"
-            text_results += text_output + "\n\n"	
+            text_results += text_output + "\n\n"
             data.append([doc_name, compliance, reason])
 
-    
     df = pd.DataFrame(data, columns=["Document", "Compliance", "Reason"])
     return df, text_results
 
@@ -139,9 +151,25 @@ def extract_non_compliant_entries(text_output):
 
 
 
-def get_next_question_llm(QA, current_question_ID, remaining_questions, documents_directory="/mount/src/ragdoll-v1.1/core/documents", top_k=3, retries=3):
+def get_next_question_llm(QA, current_question_ID, remaining_questions, documents_directory="C:/Users/moham/OneDrive/Desktop/hack2025/RAGDOLL V1.1/Ragdoll-v1.2/Ragdoll-v1.1/core/documents", top_k=3, retries=3):
     if current_question_ID < 2:
+        #get the current anser from the QA dict
+        current_answer = QA.get(current_question_ID, {}).get("Answer", "")
+
+        answers_dir = "Answers"
+        json_files = [f for f in os.listdir(answers_dir) if f.endswith(".json")]
+        filenames_no_ext = [os.path.splitext(f)[0] for f in json_files]
+
+        if current_answer in filenames_no_ext:
+            st.session_state.hash = current_answer
+            st.session_state.load_answers = True
+            st.session_state.start_quiz = False
+            st.rerun()
+
         return current_question_ID + 1, False  # Directly return next question ID for first 5 questions
+    
+
+    
 
     print(" Working Directory:", os.getcwd())
     print(" Absolute Path:", Path(__file__).resolve())
@@ -153,7 +181,7 @@ def get_next_question_llm(QA, current_question_ID, remaining_questions, document
     
     QA = "\n".join(entry.strip() for entry in format_dict(QA))
     print("Retrieving relevant docs...")
-
+    print("hi")
     relevant_docs = retrieve_relevant_docs(QA, documents, top_k)
     
     if not relevant_docs:
@@ -178,7 +206,9 @@ def get_next_question_llm(QA, current_question_ID, remaining_questions, document
         "service_name": "meta_llama70b",
         "query": prompt
     }
-    print("1")
+    #st.write("Retrieving next question...")
+    #with st.spinner("Retrieving question..."):
+
     for attempt in range(retries):
         try:
             response = requests.post(
@@ -188,8 +218,11 @@ def get_next_question_llm(QA, current_question_ID, remaining_questions, document
                 timeout=10
             )
             print("2")
+            #st.write("Response received from API")
+            #st.write(response.status_code)
+            #st.write(response.json())
             if response.status_code == 200:
-                #st.write reuslt
+                #st.write(response.json())
                 print(response.json().get("response", "No valid response from API"))
                 #also retun a bol false 
                 return response.json().get("response", "No valid response from API"), False

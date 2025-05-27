@@ -29,6 +29,7 @@ logging.getLogger().addHandler(console_handler)
 # Load documents from the 'documents' directory
 def load_documents(directory="documents"):
     docs = {}
+    print("XXXXXLoading documents from directory:", directory)	
     print(directory)
     if not os.path.exists(directory):
         logging.warning(f"Documents directory '{directory}' does not exist. Creating the directory.")
@@ -78,7 +79,9 @@ def call_api(query, content, retries=3):
     prompt = (
         f"Analyze the following article and determine whether it complies with the inputs. "
         f"Return 'Complies' or 'Does not comply' with a reason and actionable recommendations to mitigate risks\n\n"
-        f'{{ "Article": "Placeholder_Article.txt", "Result": {{ "result": "Complies or Does not comply", "reason": "This is a placeholder response. The actual compliance evaluation will be determined based on the document\'s content." }} }}\n\n'        f"Article: {content}\n\n"
+        f'{{ "Article": "Placeholder_Article.txt", "Result": {{ "result": "Complies or Does not comply", "reason": "This is a placeholder response. The actual compliance evaluation will be determined based on the document\'s content." }} }}\n\n'    
+        f"If there is not enough information to determine compliance, you must still return 'Does not comply' and explain in the 'reason' field that insufficient information was provided to assess compliance.\n\n"   
+        f"Article: {content}\n\n"
         f"Input: {query}\n\n"
     )
     data = {
