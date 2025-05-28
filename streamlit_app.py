@@ -258,6 +258,7 @@ def main():
 
     # Submitted case
     if st.session_state.submitted:
+        st.write(st.session_state.hash)
         if not st.session_state.report_generated:
             if not st.session_state.modified and st.session_state.submission_report != {}:
                 render_submission_output(st.session_state.submission_report)
