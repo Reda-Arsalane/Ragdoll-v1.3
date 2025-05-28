@@ -118,7 +118,7 @@ def show_results():
 
 
 
-def extract_compliance_entries(text_output):
+def extract_non_compliant_entries(text_output):
     entries = text_output.lower().strip().split("\n\n")
     non_complies = []
     complies = []
